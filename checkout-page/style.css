@@ -68,6 +68,21 @@ h1 {
 
 /* Bottom Section*/
 
+.lower-section {
+    display: grid;
+    grid-row: 3 / 3;
+    justify-content: center;
+}
+
+.submit-btn {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+
+    
+}
+
 /* End of Bottom section*/
 
 
