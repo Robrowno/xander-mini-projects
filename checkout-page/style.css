@@ -63,24 +63,47 @@ h1 {
     
 }
 
+input {
+    
+    border-radius: 20px;
+    padding: 0.25rem 0;
+    border: none;
+}
+
 /* End of Main */
 
 
 /* Bottom Section*/
 
 .lower-section {
-    display: grid;
-    grid-row: 3 / 3;
     justify-content: center;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 50px 30px;
 }
+
+.bottom-col-1 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.bottom-col-2 {
+    
+}
+
 
 .submit-btn {
     display: grid;
     justify-content: center;
     width: 100vw;
     text-align: center;
-
-    
+    background-color: #b08968;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 /* End of Bottom section*/
