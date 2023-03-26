@@ -45,6 +45,7 @@ h1 {
     background-color: #eee1d5;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
+    border-radius: 50px;
 }
 
 .grid-item-2 {
@@ -52,6 +53,7 @@ h1 {
     background-color: #eee1d5;
     grid-column: 2 / 2;
     grid-row: 1 / 2;
+    border-radius: 50px;
     
 }
 
@@ -60,13 +62,41 @@ h1 {
     background-color: #eee1d5;
     grid-column: 2 / 2;
     grid-row: 2 / 4;
+    border-radius: 50px;
     
+}
+
+#order-item-1 {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#order-item-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#order-item-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+fieldset {
+    max-width: 50%;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 6px;
 }
 
 input {
 
     border-radius: 20px;
-    padding: 0.25rem 0;
+    padding: 0.25rem;
+    margin: 5px 5px 10px 5px;
     border: none;
 }
 
